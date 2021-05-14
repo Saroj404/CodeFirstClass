@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\bin\Debug\CodeFirstClass.exe.config
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\bin\Debug\CodeFirstClass.exe
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\bin\Debug\CodeFirstClass.pdb
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.csprojAssemblyReference.cache
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.Properties.Resources.resources
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.csproj.GenerateResource.cache
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.csproj.CopyComplete
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.exe
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.pdb
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.Migrations.some.resources
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.Form1.resources
