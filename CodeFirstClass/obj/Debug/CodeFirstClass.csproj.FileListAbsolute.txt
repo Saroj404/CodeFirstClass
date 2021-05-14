@@ -13,4 +13,4 @@ C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClas
 C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.exe
 C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.pdb
 C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.Migrations.some.resources
-C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.Form1.resources
+C:\Users\user\source\repos\CodeFirstClass\CodeFirstClass\obj\Debug\CodeFirstClass.SubjectTeacher.resources
