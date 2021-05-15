@@ -37,7 +37,7 @@ namespace CodeFirstClass
             this.panel3 = new System.Windows.Forms.Panel();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBoxclass = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -48,8 +48,8 @@ namespace CodeFirstClass
             this.label10 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textCode = new System.Windows.Forms.TextBox();
+            this.textSubject = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.dataGridView3 = new System.Windows.Forms.DataGridView();
@@ -118,7 +118,7 @@ namespace CodeFirstClass
             this.panel3.BackColor = System.Drawing.Color.LightGreen;
             this.panel3.Controls.Add(this.comboBox1);
             this.panel3.Controls.Add(this.button3);
-            this.panel3.Controls.Add(this.textBox6);
+            this.panel3.Controls.Add(this.textBoxclass);
             this.panel3.Controls.Add(this.label9);
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label8);
@@ -146,14 +146,15 @@ namespace CodeFirstClass
             this.button3.TabIndex = 5;
             this.button3.Text = "Create";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // textBox6
+            // textBoxclass
             // 
-            this.textBox6.Location = new System.Drawing.Point(12, 74);
-            this.textBox6.Multiline = true;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(246, 27);
-            this.textBox6.TabIndex = 0;
+            this.textBoxclass.Location = new System.Drawing.Point(12, 74);
+            this.textBoxclass.Multiline = true;
+            this.textBoxclass.Name = "textBoxclass";
+            this.textBoxclass.Size = new System.Drawing.Size(246, 27);
+            this.textBoxclass.TabIndex = 0;
             // 
             // label9
             // 
@@ -192,8 +193,8 @@ namespace CodeFirstClass
             this.panel1.Controls.Add(this.label10);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Controls.Add(this.textBox2);
-            this.panel1.Controls.Add(this.textBox1);
+            this.panel1.Controls.Add(this.textCode);
+            this.panel1.Controls.Add(this.textSubject);
             this.panel1.Location = new System.Drawing.Point(594, 22);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(283, 237);
@@ -218,6 +219,7 @@ namespace CodeFirstClass
             this.button1.TabIndex = 5;
             this.button1.Text = "Create";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label3
             // 
@@ -256,21 +258,21 @@ namespace CodeFirstClass
             this.label1.TabIndex = 2;
             this.label1.Text = "Subject Name";
             // 
-            // textBox2
+            // textCode
             // 
-            this.textBox2.Location = new System.Drawing.Point(13, 121);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(122, 21);
-            this.textBox2.TabIndex = 1;
+            this.textCode.Location = new System.Drawing.Point(13, 121);
+            this.textCode.Multiline = true;
+            this.textCode.Name = "textCode";
+            this.textCode.Size = new System.Drawing.Size(122, 21);
+            this.textCode.TabIndex = 1;
             // 
-            // textBox1
+            // textSubject
             // 
-            this.textBox1.Location = new System.Drawing.Point(13, 74);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(246, 27);
-            this.textBox1.TabIndex = 0;
+            this.textSubject.Location = new System.Drawing.Point(13, 74);
+            this.textSubject.Multiline = true;
+            this.textSubject.Name = "textSubject";
+            this.textSubject.Size = new System.Drawing.Size(246, 27);
+            this.textSubject.TabIndex = 0;
             // 
             // dataGridView1
             // 
@@ -337,7 +339,7 @@ namespace CodeFirstClass
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBoxclass;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label8;
@@ -348,8 +350,8 @@ namespace CodeFirstClass
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textCode;
+        private System.Windows.Forms.TextBox textSubject;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
