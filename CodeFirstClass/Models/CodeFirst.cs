@@ -16,6 +16,7 @@ namespace CodeFirstClass.Models
         public virtual DbSet<Classes> Class { get; set; }
 
         public virtual DbSet<Teacher> ClassTeacher { get; set; }
+        public virtual DbSet<User> Users { get; set; }
 
 
     }

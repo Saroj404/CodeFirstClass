@@ -1,5 +1,6 @@
 namespace CodeFirstClass.Migrations
 {
+    using CodeFirstClass.Models;
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
@@ -14,10 +15,19 @@ namespace CodeFirstClass.Migrations
 
         protected override void Seed(CodeFirstClass.Models.CodeFirst context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data.
+            var user = new User() { Username = "Admin", Password = "admin123" };
+            var userFromDB = context.Users.FirstOrDefault(p => p.Username == user.Username);
+            if(userFromDB==null)
+            {
+                context.Users.Add(user);
+                context.SaveChanges();
+            }
+            else
+            {
+                userFromDB.Password = user.Password;
+                context.Entry(userFromDB).State = EntityState.Modified;
+                context.SaveChanges();
+            }
         }
     }
 }

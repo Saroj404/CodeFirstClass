@@ -16,7 +16,7 @@ namespace CodeFirstClass
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new SubjectTeacher());
+            Application.Run(new Login());
         }
     }
 }
